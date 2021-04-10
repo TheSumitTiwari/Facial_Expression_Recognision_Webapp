@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facial Expression Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='index.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+</head>
+<body>
+
+  <div class="outerContainer ui one stackable center aligned grid">
+      <div class=" video one column centered row">
+          <h1>Real-Time Face Expression Detection</h1>
+          <img id="bg" height="900" width="1200" src="{{ url_for('video_feed') }}">
+      </div>
+  </div>
+
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</html>

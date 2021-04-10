@@ -1,0 +1,13 @@
+.outerContainer{
+    height:100vh !important;
+} 
+
+.video img{
+    margin-top:2em;
+    height:100% !important;
+}
+
+.dev span{
+    color: grey;
+    font-weight: bold;
+}
